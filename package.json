@@ -1,7 +1,27 @@
 {
   "name": "next-admin-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "kim",
+    "email": "kimshareclub@gmail.com"
+  },
+  "homepage": "https://github.com/kim-xie/next-admin-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kim-xie/next-admin-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kim-xie/next-admin-template/issues"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "tailwindcss",
+    "shadcn/ui",
+    "admin",
+    "template"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
@@ -23,5 +43,8 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
     "@eslint/eslintrc": "^3"
+  },
+  "volta": {
+    "node": "20.0.0"
   }
 }
