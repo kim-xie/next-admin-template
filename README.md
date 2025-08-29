@@ -2,6 +2,10 @@
 
 next(15) + react(19) + typescript + tailwindcss + shadcn/ui + pnpm + volta
 
+## Function List
+
+1、基建：husky + prettier + eslint + commitlint + standard-version
+
 ## Getting Started
 
 ```bash
