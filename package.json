@@ -28,7 +28,9 @@
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "dependencies": {
     "next": "15.5.2",
@@ -51,6 +53,7 @@
     "eslint-plugin-prettier": "^5.5.4",
     "husky": "^9.1.7",
     "prettier": "^3.6.2",
+    "standard-version": "^9.5.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
