@@ -4,7 +4,14 @@ next(15) + react(19) + typescript + tailwindcss + shadcn/ui + pnpm + volta
 
 ## Function List
 
-1、基建：husky + prettier + eslint + commitlint + standard-version
+- ✅ 基建完善：husky + prettier + eslint + commitlint + standard-version
+- ⬜ 主题切换
+- ⬜ 国际化
+- ⬜ 布局切换
+- ⬜ 响应式布局
+- ⬜ CI/CD
+- ⬜ docker容器化部署
+- ⬜ 用户注册登录
 
 ## Getting Started
 
