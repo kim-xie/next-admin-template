@@ -5,7 +5,7 @@ import AppHeader from "@/layout/AppHeader";
 import AppSidebar from "@/layout/AppSidebar";
 import Backdrop from "@/layout/Backdrop";
 import React from "react";
-
+import { useTranslations } from "next-intl";
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   const { isExpanded, isHovered, isMobileOpen } = useSidebar();
 
@@ -16,6 +16,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       ? "lg:ml-[290px]"
       : "lg:ml-[90px]";
 
+  const t = useTranslations("Index");
   return (
     <div className="min-h-screen xl:flex">
       {/* Sidebar and Backdrop */}

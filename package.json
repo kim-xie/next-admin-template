@@ -33,9 +33,6 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "next": "15.5.2",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
     "@fullcalendar/core": "^6.1.15",
     "@fullcalendar/daygrid": "^6.1.15",
     "@fullcalendar/interaction": "^6.1.15",
@@ -49,9 +46,13 @@
     "apexcharts": "^4.3.0",
     "autoprefixer": "^10.4.20",
     "flatpickr": "^4.6.13",
+    "next": "15.5.2",
+    "next-intl": "^4.3.5",
+    "react": "19.1.0",
     "react-apexcharts": "^1.7.0",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "19.1.0",
     "react-dropzone": "^14.3.5",
     "swiper": "^11.2.0",
     "tailwind-merge": "^2.6.0"
@@ -61,23 +62,23 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/cz-commitlint": "^19.8.1",
     "@eslint/eslintrc": "^3",
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-transition-group": "^4.4.12",
     "commitizen": "^4.3.1",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "husky": "^9.1.7",
+    "postcss": "^8",
     "prettier": "^3.6.2",
     "standard-version": "^9.5.0",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "@svgr/webpack": "^8.1.0",
-    "@types/react-transition-group": "^4.4.12",
-    "postcss": "^8"
+    "typescript": "^5"
   },
   "overrides": {
     "@react-jvectormap/core": {
