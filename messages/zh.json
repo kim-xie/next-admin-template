@@ -29,21 +29,6 @@
     "ui_video": "视频",
     "auth": "用户认证",
     "auth_signin": "登录",
-    "auth_signup": "注册",
-    "trading": "交易日志"
-  },
-  "Trading": {
-    "table_header_col1": "市场",
-    "table_header_col2": "标的",
-    "table_header_col3": "方向",
-    "table_header_col4": "开仓价",
-    "table_header_col5": "平仓价",
-    "table_header_col6": "盈亏",
-    "table_header_col7": "耗时",
-    "table_header_col8": "开仓时间",
-    "table_header_col9": "平仓时间",
-    "table_header_col10": "录入类型",
-    "table_header_col11": "状态",
-    "table_header_col12": "操作"
+    "auth_signup": "注册"
   }
 }
