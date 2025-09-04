@@ -92,7 +92,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,vue}": [
+    "*.{js,jsx,ts,tsx,json}": [
       "pnpm run format"
     ],
     "package.json": [
