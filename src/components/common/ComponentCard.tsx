@@ -1,5 +1,4 @@
 import React from "react";
-
 interface ComponentCardProps {
   title: string;
   children: React.ReactNode;

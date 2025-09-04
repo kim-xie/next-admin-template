@@ -1,6 +1,34 @@
 {
-  "Index": {
-    "title": "Hello, world!",
-    "description": "This is a sample application."
+  "Header": {
+    "search_placeholder": "Search or type command..."
+  },
+  "Menus": {
+    "home": "Home",
+    "menu": "MENU",
+    "dashboard": "Dashboard",
+    "dashboard_ecommerce": "Ecommerce",
+    "calendar": "Calendar",
+    "user": "User Profile",
+    "form": "Forms",
+    "form_element": "Form Elements",
+    "table": "Tables",
+    "table_basic": "Basic Tables",
+    "page": "Pages",
+    "page_blank": "Blank Page",
+    "page_error": "Error Page",
+    "other": "OTHERS",
+    "chart": "Charts",
+    "chart_line": "Line Chart",
+    "chart_bar": "Bar Chart",
+    "ui": "UI Elements",
+    "ui_alert": "Alerts",
+    "ui_avatar": "Avatar",
+    "ui_badge": "Badge",
+    "ui_button": "Buttons",
+    "ui_image": "Images",
+    "ui_video": "Videos",
+    "auth": "Authentication",
+    "auth_signin": "Sign In",
+    "auth_signup": "Sign Up"
   }
 }

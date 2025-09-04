@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 export default function Alerts() {
   return (
     <div>
-      <PageBreadcrumb pageTitle="Alerts" />
+      <PageBreadcrumb pageTitle="ui_alert" />
       <div className="space-y-5 sm:space-y-6">
-        <ComponentCard title="Success Alert">
+        <ComponentCard title="ui_alert">
           <Alert
             variant="success"
             title="Success Message"

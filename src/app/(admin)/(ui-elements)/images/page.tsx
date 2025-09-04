@@ -16,15 +16,15 @@ export const metadata: Metadata = {
 export default function Images() {
   return (
     <div>
-      <PageBreadcrumb pageTitle="Images" />
+      <PageBreadcrumb pageTitle="ui_image" />
       <div className="space-y-5 sm:space-y-6">
-        <ComponentCard title="Responsive image">
+        <ComponentCard title="ui_image">
           <ResponsiveImage />
         </ComponentCard>
-        <ComponentCard title="Image in 2 Grid">
+        <ComponentCard title="ui_image">
           <TwoColumnImageGrid />
         </ComponentCard>
-        <ComponentCard title="Image in 3 Grid">
+        <ComponentCard title="ui_image">
           <ThreeColumnImageGrid />
         </ComponentCard>
       </div>

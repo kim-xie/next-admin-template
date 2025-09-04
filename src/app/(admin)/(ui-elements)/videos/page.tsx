@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function VideoPage() {
   return (
     <div>
-      <PageBreadcrumb pageTitle="Videos" />
+      <PageBreadcrumb pageTitle="ui_video" />
 
       <VideosExample />
     </div>
