@@ -29,6 +29,21 @@
     "ui_video": "Videos",
     "auth": "Authentication",
     "auth_signin": "Sign In",
-    "auth_signup": "Sign Up"
+    "auth_signup": "Sign Up",
+    "trading": "Trading Journal"
+  },
+  "Trading": {
+    "table_header_col1": "Market",
+    "table_header_col2": "Symbol",
+    "table_header_col3": "Direction",
+    "table_header_col4": "Open Price",
+    "table_header_col5": "Close Price",
+    "table_header_col6": "P&L",
+    "table_header_col7": "Durations",
+    "table_header_col8": "Open Time",
+    "table_header_col9": "Close Time",
+    "table_header_col10": "Input Type",
+    "table_header_col11": "Status",
+    "table_header_col12": "Action"
   }
 }
