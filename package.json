@@ -27,6 +27,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:staged": "npx lint-staged",
     "format": "prettier --write .",
     "prepare": "husky install",
     "commit": "git-cz",
@@ -89,6 +90,17 @@
       "react": "^16.8.0 || ^17 || ^18 || ^19",
       "react-dom": "^16.8.0 || ^17 || ^18 || ^19"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,vue}": [
+      "pnpm run format"
+    ],
+    "package.json": [
+      "pnpm run format"
+    ],
+    "*.md": [
+      "pnpm run format"
+    ]
   },
   "volta": {
     "node": "20.0.0"
