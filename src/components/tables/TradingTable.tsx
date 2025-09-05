@@ -1,7 +1,8 @@
 import React from "react";
 import { Table, TableBody, TableCell, TableHeader, TableRow } from "../ui/table";
-
+import { BoxIcon } from "@/icons";
 import Badge from "../ui/badge/Badge";
+import Button from "../ui/button/Button";
 
 import { useTranslations } from "next-intl";
 
@@ -104,78 +105,17 @@ export default function TradingTable() {
             {/* Table Header */}
             <TableHeader className="border-b border-gray-100 dark:border-white/[0.05]">
               <TableRow>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col1")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col2")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col3")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col4")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col5")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col6")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col7")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col8")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col9")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col10")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col11")}
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  {t("table_header_col12")}
-                </TableCell>
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((item) => {
+                  return (
+                    <TableCell
+                      key={item}
+                      isHeader
+                      className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
+                    >
+                      {t(`table_header_col${item}`)}
+                    </TableCell>
+                  );
+                })}
               </TableRow>
             </TableHeader>
 
@@ -234,7 +174,12 @@ export default function TradingTable() {
                     </Badge>
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">
-                    操作
+                    <Button size="sm" variant="outline" startIcon={<BoxIcon />}>
+                      删除
+                    </Button>
+                    <Button size="sm" variant="outline" startIcon={<BoxIcon />} className="ml-2">
+                      编辑
+                    </Button>
                   </TableCell>
                 </TableRow>
               ))}
