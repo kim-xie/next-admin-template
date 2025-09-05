@@ -92,11 +92,11 @@ const tableData: Trade[] = [
     closeTime: "2025/09/02 12:00:00",
     inputType: "手动录入",
     status: "Active",
-  }
+  },
 ];
 
 export default function TradingTable() {
-  const t = useTranslations('Trading')
+  const t = useTranslations("Trading");
   return (
     <div className="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-white/[0.05] dark:bg-white/[0.03]">
       <div className="max-w-full overflow-x-auto">
@@ -109,73 +109,73 @@ export default function TradingTable() {
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col1')}
+                  {t("table_header_col1")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col2')}
+                  {t("table_header_col2")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col3')}
+                  {t("table_header_col3")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col4')}
+                  {t("table_header_col4")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col5')}
+                  {t("table_header_col5")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col6')}
+                  {t("table_header_col6")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col7')}
+                  {t("table_header_col7")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col8')}
+                  {t("table_header_col8")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col9')}
+                  {t("table_header_col9")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col10')}
+                  {t("table_header_col10")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col11')}
+                  {t("table_header_col11")}
                 </TableCell>
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  {t('table_header_col12')}
+                  {t("table_header_col12")}
                 </TableCell>
               </TableRow>
             </TableHeader>
@@ -197,9 +197,7 @@ export default function TradingTable() {
                     {trade.symbol}
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-start text-theme-sm dark:text-gray-400">
-                    <div className="flex -space-x-2">
-                      {trade.direction}
-                    </div>
+                    <div className="flex -space-x-2">{trade.direction}</div>
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">
                     {trade.openPrice}
@@ -207,7 +205,7 @@ export default function TradingTable() {
                   <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">
                     {trade.closePrice}
                   </TableCell>
-                   <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">
+                  <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">
                     {trade.profit}
                   </TableCell>
                   <TableCell className="px-4 py-3 text-gray-500 text-theme-sm dark:text-gray-400">
